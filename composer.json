@@ -1,0 +1,26 @@
+{
+	"name": "chocoholics/laravel-elastic-email",
+	"description": "A Laravel wrapper for Elastic Email",
+	"keywords": ["laravel", "email", "elastic email"],
+	"license": "MIT",
+	"authors": [
+		{
+			"company": "Artisan Pixelworks",
+			"email": "obura@tongoi.com",
+			"url": "https://www.tongoi.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "obura@tongoi.com"
+	},
+	"require": {
+		"laravel/framework": "5.1.x|5.2.x|5.3.x|5.4.x"
+	},
+	"autoload": {
+		"psr-4": {
+			"Chocoholics\\LaravelElasticEmail\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
