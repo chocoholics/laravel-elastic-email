@@ -2,9 +2,9 @@
 
 namespace Chocoholics\LaravelElasticEmail;
 
-use Illuminate\Mail\TransportManager as TransportManager;
+use Illuminate\Mail\TransportManager as LaravelTransportManager;
 
-class TransportManager extends TransportManager
+class TransportManager extends LaravelTransportManager
 {
 	protected function createElasticEmailDriver()
 	{
