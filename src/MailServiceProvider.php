@@ -2,9 +2,9 @@
 
 namespace Chocoholics\LaravelElasticEmail;
 
-use Illuminate\Mail\MailServiceProvider as MailServiceProvider;
+use Illuminate\Mail\MailServiceProvider as LaravelMailServiceProvider;
 
-class MailServiceProvider extends MailServiceProvider
+class MailServiceProvider extends LaravelMailServiceProvider
 {
 	/**
      * Register the Swift Transport instance.
