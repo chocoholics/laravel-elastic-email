@@ -13,8 +13,8 @@ composer require chocoholics/laravel-elastic-email
 Next, add the following to your config/services.php and add the correct values to your .env file
 ```php
 'elastic_email' => [
-	'secret' => env('ELASTIC_SECRET'),
-	'username' => env('ELASTIC_USERNAME')
+	'key' => env('ELASTIC_KEY'),
+	'account' => env('ELASTIC_ACCOUNT')
 ]
 ```
 
