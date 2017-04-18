@@ -12,8 +12,8 @@ class TransportManager extends LaravelTransportManager
 
 		return new ElasticTransport(
 			$this->guzzle($config),
-			$config['secret'],
-			$config['username']
+			$config['key'],
+			$config['account']
 		);
 	}
 }
