@@ -28,7 +28,7 @@ class ElasticTransport extends Transport
      *
      * @var string
      */
-    protected $username;
+    protected $account;
 
     /**
      * THe Elastic Email API end-point.
@@ -46,11 +46,11 @@ class ElasticTransport extends Transport
 	 *
      * @return void
      */
-    public function __construct(ClientInterface $client, $key, $username)
+    public function __construct(ClientInterface $client, $key, $account)
     {
     	$this->client = $client;
         $this->key = $key;
-        $this->username = $username;
+        $this->account = $account;
     }
 
     /**
@@ -62,7 +62,7 @@ class ElasticTransport extends Transport
        
         $data = [
             'api_key' => $this->key,
-            'username' => $this->username,
+            'account' => $this->account,
             'msgTo' => $this->getEmailAddresses($message),
             'msgCC' => $this->getEmailAddresses($message, 'getCc'),
             'msgBcc' => $this->getEmailAddresses($message, 'getBcc'),
