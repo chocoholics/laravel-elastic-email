@@ -73,7 +73,7 @@ class ElasticTransport extends Transport
 			'to' => $this->getEmailAddresses($message),
             'subject' => $message->getSubject(),
             'body_html' => $message->getBody(),
-			'body_text' => $this->getText($message)
+	    'body_text' => $this->getText($message)
         ];
 
         $result = $this->client->post($this->url, [
