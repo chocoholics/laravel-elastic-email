@@ -15,7 +15,8 @@
 		"email": "obura@tongoi.com"
 	},
 	"require": {
-		"laravel/framework": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x"
+		"laravel/framework": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x",
+		"guzzlehttp/guzzle": ">=6.3"
 	},
 	"autoload": {
 		"psr-4": {
