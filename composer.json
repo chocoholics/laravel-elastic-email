@@ -26,7 +26,7 @@
 	    "laravel": {
 		"providers": [
 		    "Chocoholics\\LaravelElasticEmail\\MailServiceProvider"
-		],
+		]
 	    }
 	},
 	"minimum-stability": "stable"
