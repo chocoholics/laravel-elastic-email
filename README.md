@@ -18,7 +18,7 @@ Next, add the following to your config/services.php and add the correct values t
 ]
 ```
 
-Next, in config/app.php, comment out Laravel's default MailServiceProvider and add the following
+Next, in config/app.php, comment out Laravel's default MailServiceProvider. If using < Laravel 5.5, add the MailServiceProvider to the providers array
 ```php
 'providers' => [
     /*
