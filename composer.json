@@ -22,5 +22,12 @@
 			"Chocoholics\\LaravelElasticEmail\\": "src/"
 		}
 	},
+	"extra": {
+	    "laravel": {
+		"providers": [
+		    "Chocoholics\\LaravelElasticEmail\\MailServiceProvider"
+		],
+	    }
+	},
 	"minimum-stability": "stable"
 }
